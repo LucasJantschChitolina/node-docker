@@ -9,6 +9,7 @@ services:
 
   node-app:
     build: ./node-api
+    image: lucaschitolina/node-app
     environment:
       - PORT=3000
     depends_on:
